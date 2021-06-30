@@ -1,0 +1,66 @@
+{
+    "starting": {
+      "welcome": "Encontre tudo que você precisa com o Array",
+      "signUp": "Registre-se",
+      "login": "Entre"
+      
+    },
+    "register": {
+      "signUp": "Cadastro",
+      "username": "Nome de Usuário",
+      "password": "Senha",
+      "confirm_password": "Confirmar senha",
+      "register":"Registrar-se",
+      "login":"Já tem uma conta? Entrar",
+      "modal":"Cadastro realizado com sucesso!",
+      "continun": "Continuar"
+
+    },
+
+    "login":{
+      "loginD":"Entrar com",
+      "login":"Entrar",
+      "password": "Senha",
+      "erro":"O email ou a senha estão incorretos",
+      "forgot_password":"Esqueci minha senha",
+      "signUp":"Não tem uma conta? Cadastre-se"
+    },
+    "colections":{
+      "add":"Adicionar novo livro",
+      "edit":"Editar",
+      "title":"Título do livro",
+      "author":"Autor",
+      "pages":"Número de Páginas",
+      "genre":"Gênero",
+      "cancel":"Cancelar",
+      "confirm":"Confirmar",
+      "delete":"Tem certeza que deseja deletar esse livro?",
+      "create":"Criar um novo livro"
+    },
+
+    "dashboard":{
+      "welcome":"Olá ",
+      "library":"Minha biblioteca",
+      "time":"USUÁRIOS CADASTRADOS: ",
+      "item":"ITENS CADASTRADOS: ",
+      "edit":"ÚLTIMA EDIÇÃO DO PERFIL: "
+    },
+
+    "profile":{
+      "edit":"Editar informações do perfil",
+      "username": "Nome de Usuário",
+      "password": "Senha Atual",
+      "confirm_password": "Confirmar nova senha",
+      "acess":"Acessar",
+      "change":"Alterar Senha",
+      "new":"Nova senha",
+      "save":"Salvar"
+    },
+
+    "topbar":{
+      "profile":"Perfil",
+      "users":"Lista de Usuários",
+      "english": "Inglês",
+      "portuguese": "Português"
+    }
+  }

@@ -1,0 +1,66 @@
+{
+  "starting": {
+    "welcome": "Find everything you need with Array",
+    "signUp": "Sign Up",
+    "login": "Login"
+    
+  },
+  "register": {
+    "signUp": "Register",
+    "username": "Username",
+    "password": "Password",
+    "confirm_password": "Confirm Password",
+    "register":"Register",
+    "login":"Do you have an account? Login",
+    "modal":"Registration performed successfully!",
+    "continun": "Continue"
+
+  },
+  "login":{
+    "loginD":"Login with",
+    "login":"Login",
+    "password": "Password",
+    "erro":"Email or password is incorrect",
+    "forgot_password":"I forgot my password",
+    "signUp":"Don't you have an account? Sign Up"
+  },
+
+  "colections":{
+    "add":"Add a new book",
+    "edit":"Edit",
+    "title":"Book's Title",
+    "author":"Author",
+    "pages":"Number of Pages",
+    "genre":"Genre",
+    "cancel":"Cancel",
+    "confirm":"Confirm",
+    "delete":"Are you sure you want to delete this book?",
+    "create":"Create a new book"
+  },
+  
+  "dashboard":{
+    "welcome":"Hello ",
+    "library":"My library",
+    "time":"REGISTER USERS: ",
+    "item":"REGISTERED ITEMS: ",
+    "edit":"PROFILE EDITED AT: "
+  },
+
+  "profile":{
+    "edit":"Edit profile information",
+    "username": "Username",
+    "password": "Current password",
+    "confirm_password": "Confirm new password",
+    "acess":"Acess",
+    "change":"Change Password",
+    "new":"New password",
+    "save":"Save"
+  },
+
+  "topbar":{
+    "profile":"Profile",
+    "users":"Users List",
+    "english": "English",
+    "portuguese": "Portuguese"
+  }
+  }
