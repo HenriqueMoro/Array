@@ -19,7 +19,7 @@ export default function TopBar(){
     const {Logout} = useContext(AuthContext)
 
     const[able,isAble] = useState(true)
-
+    console.log(modal)
     const {t, i18n} = useTranslation('topbar');
     
 

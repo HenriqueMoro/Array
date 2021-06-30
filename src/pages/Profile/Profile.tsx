@@ -25,7 +25,7 @@ export default function Profile(){
     
     async function handleUsers(){
             setLoading2(true)
-            await api.put('/profile',{email:email,name:user},{headers:{Authorization:AuthStr}})
+            await api.put('/profile',{email:email,name:user},{headers:{Authorization:AuthStr}}).then((response=>console.log(response.status))).catch((error)=>console.log(error))
             setUser('')
             setEmail('')
             setLoading2(false)
@@ -38,7 +38,7 @@ export default function Profile(){
 
     async function handlePassword(){
         setLoading(true)
-        await api.post('/reset-password',{current_password:currentPassword,new_password:newPassword,new_confirm_password:confirmNewPassword},{headers:{Authorization:AuthStr}})
+        await api.post('/reset-password',{current_password:currentPassword,new_password:newPassword,new_confirm_password:confirmNewPassword},{headers:{Authorization:AuthStr}}).then((response=>console.log(response.status))).catch((error)=>console.log(error.status))
         setCurrentPassword('')
         setConfirmNewPassword('')
         setNewPassword('')

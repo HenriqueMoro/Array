@@ -35,12 +35,12 @@ export default function Dashboard(){
 
     
     
-    useEffect(()=>{
+    
          
         getUser()
         
          
-    },[])
+    
         
     
 
